@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ora Scanner - App Landing Page</title>
+  <style>
+    /* 全局样式 */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0f1c;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #4db5ff;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      overflow: hidden;
+      padding: 2rem 0;
+    }
+
+    /* 导航栏 */
+    header {
+      background: #0d1224;
+      padding: 1rem 0;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #4db5ff;
+    }
+
+    nav {
+      float: right;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-left: 20px;
+    }
+
+    /* Banner */
+    .banner {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(to bottom, #0a0f1c, #141a33);
+    }
+
+    .banner h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .banner img {
+      max-width: 250px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(77, 181, 255, 0.5);
+    }
+
+    /* 功能模块 */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      text-align: center;
+      margin: 4rem 0;
+    }
+
+    .feature {
+      background: #141a33;
+      padding: 2rem;
+      border-radius: 12px;
+      transition: transform 0.2s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature h3 {
+      margin-bottom: 1rem;
+      color: #4db5ff;
+    }
+
+    /* Footer */
+    footer {
+      background: #0d1224;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    footer a {
+      margin: 0 10px;
+      color: #4db5ff;
+    }
+  </style>
+</head>
+<body>
+  <!-- 导航栏 -->
+  <header>
+    <div class="container">
+      <span class="logo">Ora Scanner</span>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Ora Scanner</h1>
+    <p>Your app slogan goes here. A short description of what the app does.</p>
+    <img src="https://via.placeholder.com/250x500" alt="App Screenshot">
+  </section>
+
+  <!-- 功能介绍 -->
+  <section class="container" id="features">
+    <h2 style="text-align:center; margin-bottom:2rem;">Key Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Feature One</h3>
+        <p>Short description about this feature of the app.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature Two</h3>
+        <p>Short description about this feature of the app.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature Three</h3>
+        <p>Short description about this feature of the app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>© 2025 Ora Scanner. All rights reserved.</p>
+    <p>
+      <a href="#">Contact Us</a> | 
+      <a href="#">Privacy Policy</a>
+    </p>
+  </footer>
+</body>
+</html>
