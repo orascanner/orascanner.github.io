@@ -105,13 +105,16 @@
       line-height: 1.6;
       color: #555555;
     }
-    .feature img {
-      flex: 2;
-      max-width: 100%;
-      border-radius: 0;    /* 去掉圆角 */
-      box-shadow: none;    /* 去掉阴影 */
-      min-width: 400px;
-    }
+     .feature img {
+  width: 40%;           /* 显示宽度较小 */
+  height: auto;
+  flex: none;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: contain;
+  margin: 0 auto;       /* 居中显示 */
+}
+
 
     /* Footer */
     footer {
@@ -163,7 +166,7 @@
       <p>Scan, Convert, Sign & Edit Doc</p>
       <button>Download Now</button>
     </div>
-    <img src="https://dvfilepub.s3.amazonaws.com/orascanner/banner.png" alt="App Screenshot">
+    <img src="https://dvfilepub.s3.amazonaws.com/orascanner/banner%E5%9B%BE.png" alt="App Screenshot">
   </section>
 
   <!-- 功能模块 -->
@@ -173,28 +176,28 @@
         <h2>Versatile Scanning</h2>
         <p>Scan documents, images, or anything, then export as Pdf, image, word, and more. <br>Supports multi-page scanning, merging, and splitting.</p>
       </div>
-      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E6%89%AB%E6%8F%8F%E5%8A%9F%E8%83%BD.png" alt="Feature 1">
+      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E6%89%AB%E6%8F%8F%E5%8A%9F%E8%83%BD1.png" alt="Feature 1">
     </div>
     <div class="feature">
       <div class="feature-text">
         <h2>OCR Text Recognition</h2>
         <p>Extract text from images or scans, then edit, copy, or share it easily.</p>
       </div>
-      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/scanner%E5%9B%BE1.png" alt="Feature 2">
+      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/ocr%E6%8A%80%E6%9C%AF1.png" alt="Feature 2">
     </div>
     <div class="feature">
       <div class="feature-text">
         <h2>PDF Editing</h2>
         <p>Crop, merge, split, add signatures or watermarks, annotate, and protect PDFs with passwords.</p>
       </div>
-      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91.png" alt="Feature 3">
+      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E7%BC%96%E8%BE%91%E5%8A%9F%E8%83%BD1.png" alt="Feature 3">
     </div>
     <div class="feature">
       <div class="feature-text">
         <h2>File Conversion</h2>
         <p>Convert images, documents, and web pages to PDF, or turn PDFs into images, Word, Excel, or text.</p>
       </div>
-      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2.png" alt="Feature 3">
+      <img src="https://dvfilepub.s3.amazonaws.com/orascanner/%E8%BD%AC%E6%8D%A2%E5%8A%9F%E8%83%BD1.png" alt="Feature 3">
     </div>
   </section>
 
